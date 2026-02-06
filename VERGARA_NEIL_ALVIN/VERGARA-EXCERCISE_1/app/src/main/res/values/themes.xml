@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Cit238_vergaraexcercise1" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Cit238_vergaraexcercise1" parent="Base.Theme.Cit238_vergaraexcercise1" />
+
+    <style name="text_input_greeting" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="button_greeting">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="greeting_display" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="screen_layout_margin">
+        <item name="android:layout_margin">12dp</item>
+    </style>
+
+</resources>

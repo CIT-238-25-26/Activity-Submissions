@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">cit238_paniza-exercise1</string>
+    <string name="first_name" />
+    <string name="first_name_text">First name:</string>
+    <string name="last_name_text">Last name:</string>
+    <string name="enter_button_text">Enter</string>
+    <string name="welcome_to_the_app">Welcome to the app, %1$s!</string>
+    <string name="please_enter_a_name">Please enter a full name!</string>
+</resources>
