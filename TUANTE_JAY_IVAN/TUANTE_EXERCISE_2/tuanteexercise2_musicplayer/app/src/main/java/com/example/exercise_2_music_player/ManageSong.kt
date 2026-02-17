@@ -13,15 +13,17 @@ import androidx.media3.exoplayer.ExoPlayer
 
 class ManageSong : AppCompatActivity() {
 
-//    UI elements
+    // UI elements
     private lateinit var playButton: Button
     private lateinit var pauseButton: Button
     private lateinit var stopButton: Button
+    private lateinit var statusText: TextView
 
-//    URL retrieve from the intent
-    private  var songUrl = ""
+    // Song info from Intent
+    private var songUrl = ""
+    private var songFull = ""
 
-    //    setup the exoplayer
+    // ExoPlayer
     private lateinit var player: ExoPlayer
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,62 +31,98 @@ class ManageSong : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.manage_song)
 
+        // Handle system window insets
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            return@setOnApplyWindowInsetsListener insets
+            insets
         }
 
-//        Retrieve the song URL from the intent
+        // Retrieve song info from Intent
+        songUrl = intent.getStringExtra("SONG_URL") ?: ""
+        songFull = intent.getStringExtra("SONG_FULL") ?: ""
 
-//        Setup the button functions
-//        Setup the Song title
+        // Initialize UI elements
+        playButton = findViewById(R.id.playButton)
+        pauseButton = findViewById(R.id.pauseButton)
+        stopButton = findViewById(R.id.stopButton)
+        statusText = findViewById(R.id.songTitle)
 
-//        Setup the ExoPlayer
+        statusText.text = "Selected: ${songFull.substringBefore(" - ")}"
+
+        setupButtonListeners()
+    }
+
+    // Setup ExoPlayer
+    private fun setupPlayer() {
         player = ExoPlayer.Builder(this).build()
-//        Setup the media item to play using the URL retrieved from the intent
-        val mediaItem = MediaItem.fromUri("Example URL")
+        val mediaItem = MediaItem.fromUri(songUrl)
         player.setMediaItem(mediaItem)
-        player.prepare()
 
-//        This listener will update the song title based on the player's state
+        // Listener to update statusText
         player.addListener(object : Player.Listener {
             override fun onIsPlayingChanged(isPlaying: Boolean) {
-                if (isPlaying) {
-
-                } else {
-                }
+                statusText.text = if (isPlaying)
+                    "Playing: ${songFull.substringBefore(" - ")}"
+                else
+                    "Paused: ${songFull.substringBefore(" - ")}"
             }
 
             override fun onPlaybackStateChanged(state: Int) {
-                if (state == Player.STATE_BUFFERING) {
-                }
-                if(state == Player.STATE_READY) {
-                }
-                if (state == Player.STATE_IDLE) {
-                }
-                if (state == Player.STATE_ENDED) {
+                when (state) {
+                    Player.STATE_BUFFERING -> statusText.text = "Buffering..."
+                    Player.STATE_READY -> {
+                        if (player.isPlaying)
+                            statusText.text = "Playing: ${songFull.substringBefore(" - ")}"
+                        else
+                            statusText.text = "Paused: ${songFull.substringBefore(" - ")}"
+                    }
+                    Player.STATE_IDLE -> statusText.text = "Idle"
+                    Player.STATE_ENDED -> statusText.text = "Song Ended"
                 }
             }
         })
 
-//        Setup the button listeners
+        // Prepare asynchronously (won’t block UI)
+        player.prepare()
+    }
+
+    // Setup buttons
+    private fun setupButtonListeners() {
         playButton.setOnClickListener {
-            if (!player.isPlaying && player.playbackState == Player.STATE_IDLE) {
-                player.prepare()
+            if (player.playbackState == Player.STATE_READY) {
+                player.play()
             }
-            player.play()
         }
-
-        pauseButton.setOnClickListener {
-            player.pause()
-        }
-
+        pauseButton.setOnClickListener { player.pause() }
         stopButton.setOnClickListener {
             player.stop()
-//            Reset the music
             player.seekTo(0)
+            statusText.text = "Stopped"
         }
     }
 
+    // Lifecycle
+    override fun onStart() {
+        super.onStart()
+        setupPlayer() // Initialize ExoPlayer per instructions
+    }
+
+    override fun onResume() {
+        super.onResume()
+        // Only play if player is ready
+        if (player.playbackState == Player.STATE_READY || player.playbackState == Player.STATE_BUFFERING) {
+            player.play()
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        player.pause() // Pause music when activity pauses
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        player.release() // Release player
+    }
 }

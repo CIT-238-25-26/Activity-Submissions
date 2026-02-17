@@ -7,6 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.content.Intent
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,6 +41,15 @@ class MainActivity : AppCompatActivity() {
 //        Put a click listener on the ListView to open the ManageSong activity when a song is clicked
         songsListView.setOnItemClickListener { parent, view, position, id ->
 
+            val selectedSong = songs[position]
+
+            // Extract URL (after " - ")
+            val songUrl = selectedSong.substringAfter(" - ")
+
+            val intent = Intent(this, ManageSong::class.java)
+            intent.putExtra("SONG_URL", songUrl)
+            intent.putExtra("SONG_FULL", selectedSong)
+            startActivity(intent)
         }
     }
 
