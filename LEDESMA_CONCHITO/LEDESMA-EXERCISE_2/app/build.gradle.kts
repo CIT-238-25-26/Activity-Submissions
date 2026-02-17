@@ -1,8 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     // Add the Kotlin Android plugin
-    //highlight-start
-    alias(libs.plugins.kotlin.android) // Change this line
+ 
+    alias(libs.plugins.kotlin.android)
     //highlight-end
 }
 
@@ -30,12 +30,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
-    // Move kotlinOptions to be a direct child of the android block
-    kotlinOptions {
-        jvmTarget = "17"
+    kotlin {
+        jvmToolchain(17)
     }
 }
 
