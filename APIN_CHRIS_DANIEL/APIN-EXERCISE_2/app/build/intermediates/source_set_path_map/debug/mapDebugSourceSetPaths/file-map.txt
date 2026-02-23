@@ -1,0 +1,44 @@
+com.example.exercise_2_music_player.app-lifecycle-livedata-2.6.2-0 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\0a24a79bbac95fb6998e2f231c4a463b\workspace\transformed\lifecycle-livedata-2.6.2\res
+com.example.exercise_2_music_player.app-emoji2-views-helper-1.3.0-1 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\228ef0e293f0f3e13fd7da085a90d62b\workspace\transformed\emoji2-views-helper-1.3.0\res
+com.example.exercise_2_music_player.app-annotation-experimental-1.4.1-2 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\314f8de6f7f7509842351d7e676a896b\workspace\transformed\annotation-experimental-1.4.1\res
+com.example.exercise_2_music_player.app-cardview-1.0.0-3 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\31ebdb5d754fda5824777f7e9bae2959\workspace\transformed\cardview-1.0.0\res
+com.example.exercise_2_music_player.app-graphics-shapes-release-4 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\34303e9618c743016d3e394360daf00f\workspace\transformed\graphics-shapes-release\res
+com.example.exercise_2_music_player.app-fragment-1.5.4-5 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\3844d1760aac1c2c1759da678285bfc1\workspace\transformed\fragment-1.5.4\res
+com.example.exercise_2_music_player.app-transition-1.5.0-6 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\3c1e95af3f402729ec33295b3bb5d438\workspace\transformed\transition-1.5.0\res
+com.example.exercise_2_music_player.app-customview-poolingcontainer-1.0.0-7 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\468adaafa463236e9890bad35b4079f1\workspace\transformed\customview-poolingcontainer-1.0.0\res
+com.example.exercise_2_music_player.app-core-runtime-2.2.0-8 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\46b0c6717d919d6d73a0ab0c7fd29e00\workspace\transformed\core-runtime-2.2.0\res
+com.example.exercise_2_music_player.app-startup-runtime-1.1.1-9 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\4e992e7e1ce8956c88d52eecbb31ea25\workspace\transformed\startup-runtime-1.1.1\res
+com.example.exercise_2_music_player.app-coordinatorlayout-1.1.0-10 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\580753aa95bdcc3a996baf4fe292420f\workspace\transformed\coordinatorlayout-1.1.0\res
+com.example.exercise_2_music_player.app-media3-ui-1.1.1-11 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\5bf3a77ebe7443d44e406bfda04f17fe\workspace\transformed\media3-ui-1.1.1\res
+com.example.exercise_2_music_player.app-recyclerview-1.3.0-12 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\685388389cddcca7decf126219b90be3\workspace\transformed\recyclerview-1.3.0\res
+com.example.exercise_2_music_player.app-lifecycle-livedata-core-2.6.2-13 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\6f3b2b9b1c871bbacb49832c89186416\workspace\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.exercise_2_music_player.app-emoji2-1.3.0-14 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\798a17371f1cb967008a1ac82592f410\workspace\transformed\emoji2-1.3.0\res
+com.example.exercise_2_music_player.app-savedstate-1.2.1-15 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\931019354f0f32b6920cdf5090deb2c4\workspace\transformed\savedstate-1.2.1\res
+com.example.exercise_2_music_player.app-drawerlayout-1.1.1-16 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\95eca210b87c95933bcbf5176be5e572\workspace\transformed\drawerlayout-1.1.1\res
+com.example.exercise_2_music_player.app-core-1.17.0-17 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\96b167dd14434c671756e3cd0ff52207\workspace\transformed\core-1.17.0\res
+com.example.exercise_2_music_player.app-navigationevent-18 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\991d647697764f5f35392305fefa2552\workspace\transformed\navigationevent\res
+com.example.exercise_2_music_player.app-profileinstaller-1.4.0-19 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\9b80264011241d40b70405ea9ba42ee6\workspace\transformed\profileinstaller-1.4.0\res
+com.example.exercise_2_music_player.app-activity-1.12.4-20 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\9cf5cd5d6a50e02255669bc86c93e83d\workspace\transformed\activity-1.12.4\res
+com.example.exercise_2_music_player.app-core-ktx-1.17.0-21 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\a06a2edc8b6bb14b5b12ea212425761c\workspace\transformed\core-ktx-1.17.0\res
+com.example.exercise_2_music_player.app-material-1.13.0-22 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\a7ada9ab4fa9aa1d185a6d3e88e110d5\workspace\transformed\material-1.13.0\res
+com.example.exercise_2_music_player.app-media3-exoplayer-1.1.1-23 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\b484db2664c121576fff95c1a1463591\workspace\transformed\media3-exoplayer-1.1.1\res
+com.example.exercise_2_music_player.app-lifecycle-viewmodel-savedstate-2.6.2-24 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\b5bb49052a4de70248737f28b04ad67c\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.exercise_2_music_player.app-viewpager2-1.0.0-25 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\b62a2103b7256773f6cfe0538f3a2352\workspace\transformed\viewpager2-1.0.0\res
+com.example.exercise_2_music_player.app-appcompat-resources-1.7.1-26 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\b6d6a2dcce7a2683129790357bb35be3\workspace\transformed\appcompat-resources-1.7.1\res
+com.example.exercise_2_music_player.app-lifecycle-viewmodel-2.6.2-27 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\c5119451645c1e25ee7396278388f0be\workspace\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.exercise_2_music_player.app-media-1.6.0-28 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\cb28ac2c6797c17a6c4eb2ae27c8b136\workspace\transformed\media-1.6.0\res
+com.example.exercise_2_music_player.app-core-viewtree-1.0.0-29 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\cb939123ccae9ed256a76e7f051e71c3\workspace\transformed\core-viewtree-1.0.0\res
+com.example.exercise_2_music_player.app-lifecycle-process-2.6.2-30 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\d258a06b93bf1afd7d4c21dd58797b19\workspace\transformed\lifecycle-process-2.6.2\res
+com.example.exercise_2_music_player.app-lifecycle-runtime-2.6.2-31 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\e3bbd85c7c382d96506d01f7d3bac017\workspace\transformed\lifecycle-runtime-2.6.2\res
+com.example.exercise_2_music_player.app-tracing-1.2.0-32 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\e3e7282fddda9027ec8f4722952c0256\workspace\transformed\tracing-1.2.0\res
+com.example.exercise_2_music_player.app-appcompat-1.7.1-33 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\e8726dc70dca865a63b1f347b0790fd5\workspace\transformed\appcompat-1.7.1\res
+com.example.exercise_2_music_player.app-constraintlayout-2.2.1-34 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\f1d7f2e5088ea6ca63b80dfe73512559\workspace\transformed\constraintlayout-2.2.1\res
+com.example.exercise_2_music_player.app-dynamicanimation-1.1.0-35 C:\Users\Chris Daniel Apin\.gradle\caches\9.1.0\transforms\f6a97f12304c1cd513245acc7efa1312\workspace\transformed\dynamicanimation-1.1.0\res
+com.example.exercise_2_music_player.app-pngs-36 C:\Users\Chris Daniel Apin\Documents\Codes\Kotlin\Code-Samples\Unit 2\exercise2_musicplayer\app\build\generated\res\pngs\debug
+com.example.exercise_2_music_player.app-resValues-37 C:\Users\Chris Daniel Apin\Documents\Codes\Kotlin\Code-Samples\Unit 2\exercise2_musicplayer\app\build\generated\res\resValues\debug
+com.example.exercise_2_music_player.app-updated_navigation_xml-38 C:\Users\Chris Daniel Apin\Documents\Codes\Kotlin\Code-Samples\Unit 2\exercise2_musicplayer\app\build\generated\updated_navigation_xml\debug
+com.example.exercise_2_music_player.app-packageDebugResources-39 C:\Users\Chris Daniel Apin\Documents\Codes\Kotlin\Code-Samples\Unit 2\exercise2_musicplayer\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.exercise_2_music_player.app-packageDebugResources-40 C:\Users\Chris Daniel Apin\Documents\Codes\Kotlin\Code-Samples\Unit 2\exercise2_musicplayer\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.exercise_2_music_player.app-debug-41 C:\Users\Chris Daniel Apin\Documents\Codes\Kotlin\Code-Samples\Unit 2\exercise2_musicplayer\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.exercise_2_music_player.app-debug-42 C:\Users\Chris Daniel Apin\Documents\Codes\Kotlin\Code-Samples\Unit 2\exercise2_musicplayer\app\src\debug\res
+com.example.exercise_2_music_player.app-main-43 C:\Users\Chris Daniel Apin\Documents\Codes\Kotlin\Code-Samples\Unit 2\exercise2_musicplayer\app\src\main\res
