@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">cit_238_unit_2</string>
-    <string name="prev_text">Previous State</string>
-    <string name="curr_text">Current State</string>
-    <string name="enter_any_text">Enter any text...</string>
-    <string name="send_button">Send</string>
-</resources>
