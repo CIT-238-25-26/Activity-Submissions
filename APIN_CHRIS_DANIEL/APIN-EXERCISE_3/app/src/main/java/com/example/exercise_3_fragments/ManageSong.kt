@@ -43,10 +43,9 @@ class ManageSong : AppCompatActivity() {
         stopButton = findViewById(R.id.stopButton)
         songTitle = findViewById(R.id.songTitle)
 
-        // Song title
+        // ✅ Safer intent handling
         val fullSongData = intent.getStringExtra("SONG_DATA")
 
-        // Added error handling for null songs
         if (fullSongData != null && fullSongData.contains(" - ")) {
             songName = fullSongData.substringBefore(" - ")
             songUrl = fullSongData.substringAfter(" - ")
