@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Exercise2_musicplayer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+    </style>
+
+    <style name="Theme.Exercise2_musicplayer" parent="Base.Theme.Exercise2_musicplayer" />
+
+    <!-- Custom button styles -->
+    <style name="PlayButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/play_button</item>
+    </style>
+
+    <style name="ControlButton" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/control_button</item>
+    </style>
+</resources>
