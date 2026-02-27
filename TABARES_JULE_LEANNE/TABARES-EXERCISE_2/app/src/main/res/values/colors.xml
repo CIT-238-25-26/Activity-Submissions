@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary_pink">#FF1493</color>
+    <color name="hot_pink">#FF1493</color>
+    <color name="light_pink">#FFB6D9</color>
+    <color name="soft_pink">#FFCCE5</color>
+    <color name="dark_pink">#C71585</color>
+
+    <color name="dark_background">#0A0A0A</color>
+    <color name="dark_surface">#1A1A1A</color>
+    <color name="dark_card">#1C1C1C</color>
+    <color name="card_overlay">#252525</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#FFCCE5</color>
+    <color name="text_tertiary">#999999</color>
+
+    <color name="accent_blue">#5E92F3</color>
+    <color name="accent_purple">#FF1493</color>
+    <color name="accent_pink">#FF1493</color>
+
+    <color name="primary_purple">#FF1493</color>
+    <color name="dark_purple">#C71585</color>
+    <color name="spotify_green">#FF1493</color>
+    <color name="spotify_dark_green">#C71585</color>
+    <color name="spotify_light_green">#FFB6D9</color>
+</resources>
