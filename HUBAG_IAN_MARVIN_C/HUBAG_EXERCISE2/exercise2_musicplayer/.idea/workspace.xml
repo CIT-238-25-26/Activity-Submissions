@@ -21,16 +21,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9dedc8-7da0-4942-b303-afccc1bde901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/Code-Samples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/deviceManager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/emulatorDisplays.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a9dedc8-7da0-4942-b303-afccc1bde901" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\Lenovo\.gradle\wrapper\dists\gradle-9.1.0-bin\9agqghryom9wkf8r80qlhnts3\gradle-9.1.0" javaHome="C:\Program Files\Android\Android Studio\jbr" gradleVersion="9.1.0">
     <option name="jvmArguments">
@@ -74,22 +65,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/OneDrive/Documents/Code-Samples/Unit 2/exercise2_musicplayer&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "Gradle.Configure Daemon JVM Criteria.executor": "Run",
+    "GradleDaemonJvmCriteriaMigrationNotification.isNotificationDisabled": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Documents/Activity-Submissions/HUBAG_IAN_MARVIN_C/HUBAG_EXERCISE2/exercise2_musicplayer",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="exercise-2_music-player.app" />
@@ -179,12 +172,12 @@
       <map>
         <entry key="com.example.exercise_2_music_player">
           <value>
-            <CheckInfo lastCheckTimestamp="1771209488689" />
+            <CheckInfo lastCheckTimestamp="1772209197995" />
           </value>
         </entry>
         <entry key="com.example.exercise_2_music_player.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1771209488699" />
+            <CheckInfo lastCheckTimestamp="1772209197995" />
           </value>
         </entry>
       </map>

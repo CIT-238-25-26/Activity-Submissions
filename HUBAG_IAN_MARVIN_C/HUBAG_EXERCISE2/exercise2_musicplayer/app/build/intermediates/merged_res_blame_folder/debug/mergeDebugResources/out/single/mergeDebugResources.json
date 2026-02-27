@@ -60,10 +60,6 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\9.1.0\\com.example.exercise_2_music_player.app-main-41:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.exercise_2_music_player.app-debug-39:/layout_activity_main.xml.flat",
-        "source": "com.example.exercise_2_music_player.app-main-41:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\9.1.0\\com.example.exercise_2_music_player.app-debug-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\9.1.0\\com.example.exercise_2_music_player.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -74,5 +70,9 @@
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\9.1.0\\com.example.exercise_2_music_player.app-debug-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\9.1.0\\com.example.exercise_2_music_player.app-main-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.exercise_2_music_player.app-debug-39:/layout_manage_song.xml.flat",
+        "source": "com.example.exercise_2_music_player.app-main-41:/layout/manage_song.xml"
     }
 ]
