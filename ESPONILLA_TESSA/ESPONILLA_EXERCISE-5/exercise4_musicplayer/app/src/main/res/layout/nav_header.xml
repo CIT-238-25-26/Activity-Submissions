@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/violet_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Top label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:text="PROFILE"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:letterSpacing="0.12"
+        android:textStyle="bold" />
+
+    <!-- Avatar + name/email row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Circular avatar -->
+        <ImageView
+            android:id="@+id/navHeaderAvatar"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/my_photo"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_avatar_border"
+            android:elevation="2dp" />
+
+        <!-- Name + email -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/navHeaderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tessa Esponilla"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/navHeaderEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="tessa.esponilla@wvsu.edu.ph"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <!-- Course badge -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="BSIT · 3A"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:background="@drawable/badge_outline"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="2dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

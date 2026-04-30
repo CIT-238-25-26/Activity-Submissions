@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Profile -->
+    <color name="background_page">#F3F4F6</color>
+    <color name="blue_primary">#185FA5</color>
+    <color name="violet_bg">#784888</color>
+    <color name="blue_light">#B5D4F4</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_tertiary">#9CA3AF</color>
+    <color name="divider">#E5E7EB</color>
+
+    <!-- Hobbies -->
+    <color name="chip_blue">#E6F1FB</color>
+    <color name="chip_text_blue">#185FA5</color>
+    <color name="chip_green">#EAF3DE</color>
+    <color name="chip_text_green">#3B6D11</color>
+    <color name="chip_amber">#FAEEDA</color>
+    <color name="chip_text_amber">#854F0B</color>
+</resources>
