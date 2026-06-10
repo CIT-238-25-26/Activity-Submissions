@@ -21,7 +21,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9dedc8-7da0-4942-b303-afccc1bde901" name="Changes" comment="" />
+    <list default="true" id="8a9dedc8-7da0-4942-b303-afccc1bde901" name="Changes" comment="Android Music Player – Exercise 2&#10;&#10;A minimal, modern music player app built with Kotlin and ExoPlayer." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +79,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Documents/Activity-Submissions/HUBAG_IAN_MARVIN_C/HUBAG_EXERCISE2/exercise2_musicplayer",
+    "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Documents/Activities-Submissions/HUBAG_IAN_MARVIN_C/HUBAG_EXERCISE2/exercise2_musicplayer",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -165,19 +165,33 @@
       <option name="presentableId" value="Default" />
       <updated>1771209165619</updated>
     </task>
+    <task id="LOCAL-00001" summary="Android Music Player – Exercise 2&#10;&#10;A minimal, modern music player app built with Kotlin and ExoPlayer.">
+      <option name="closed" value="true" />
+      <created>1776653407231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776653407231</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update: Music Player" />
+    <MESSAGE value="Android Music Player – Exercise 2&#10;&#10;A minimal, modern music player app built with Kotlin and ExoPlayer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Android Music Player – Exercise 2&#10;&#10;A minimal, modern music player app built with Kotlin and ExoPlayer." />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
         <entry key="com.example.exercise_2_music_player">
           <value>
-            <CheckInfo lastCheckTimestamp="1772209197995" />
+            <CheckInfo lastCheckTimestamp="1776653409139" />
           </value>
         </entry>
         <entry key="com.example.exercise_2_music_player.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1772209197995" />
+            <CheckInfo lastCheckTimestamp="1776653409137" />
           </value>
         </entry>
       </map>
