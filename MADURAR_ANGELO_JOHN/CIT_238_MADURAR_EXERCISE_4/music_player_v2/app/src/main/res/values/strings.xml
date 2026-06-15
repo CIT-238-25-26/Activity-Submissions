@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BeatFlow</string>
+
+    <!-- Navigation menus -->
+    <string name="menu_now_playing">Now Playing</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_my_music">My Music</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_search">Search</string>
+
+    <!-- Drawer header -->
+    <string name="drawer_header_title">BeatFlow</string>
+    <string name="drawer_header_subtitle">Your Personal Music Player</string>
+
+    <!-- Profile info -->
+    <string name="profile_name">Juan dela Cruz</string>
+    <string name="profile_course">BSIT</string>
+    <string name="profile_section">3-A</string>
+    <string name="profile_hobbies">Listening to music, Coding, Gaming, Reading</string>
+    <string name="profile_label_name">Full Name</string>
+    <string name="profile_label_course">Course</string>
+    <string name="profile_label_section">Section</string>
+    <string name="profile_label_hobbies">Hobbies</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_album_art">Album art</string>
+    <string name="cd_profile_picture">Profile picture</string>
+    <string name="open_navigation_drawer">Open navigation drawer</string>
+    <string name="close_navigation_drawer">Close navigation drawer</string>
+</resources>

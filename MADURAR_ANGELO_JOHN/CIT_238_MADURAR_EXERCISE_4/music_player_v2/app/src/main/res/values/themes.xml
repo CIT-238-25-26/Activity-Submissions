@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Exercise2_musicplayer" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/spotify_green</item>
+        <item name="colorPrimaryVariant">@color/spotify_green_dark</item>
+        <item name="colorOnPrimary">@color/spotify_black</item>
+        <item name="colorSecondary">@color/spotify_green</item>
+        <item name="colorOnSecondary">@color/spotify_black</item>
+        <item name="colorSurface">@color/spotify_dark_gray</item>
+        <item name="colorOnSurface">@color/spotify_white</item>
+        <item name="android:windowBackground">@color/spotify_black</item>
+        <item name="android:statusBarColor">@color/spotify_black</item>
+        <item name="android:navigationBarColor">@color/spotify_dark_gray</item>
+        <item name="navigationViewStyle">@style/NavigationViewStyle</item>
+    </style>
+
+    <style name="Theme.Exercise2_musicplayer" parent="Base.Theme.Exercise2_musicplayer" />
+
+    <style name="NavigationViewStyle" parent="Widget.MaterialComponents.NavigationView">
+        <item name="android:background">@color/spotify_dark_gray</item>
+        <item name="itemTextColor">@color/spotify_white</item>
+        <item name="itemIconTint">@color/nav_item_color</item>
+    </style>
+</resources>

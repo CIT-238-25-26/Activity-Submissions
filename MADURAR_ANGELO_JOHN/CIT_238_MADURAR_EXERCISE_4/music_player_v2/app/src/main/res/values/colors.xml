@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Spotify-inspired palette -->
+    <color name="spotify_green">#1DB954</color>
+    <color name="spotify_green_dark">#148a3d</color>
+    <color name="spotify_black">#121212</color>
+    <color name="spotify_dark_gray">#181818</color>
+    <color name="spotify_medium_gray">#282828</color>
+    <color name="spotify_light_gray">#B3B3B3</color>
+    <color name="spotify_white">#FFFFFF</color>
+    <color name="spotify_surface">#282828</color>
+
+    <!-- Navigation colors -->
+    <color name="nav_selected">#1DB954</color>
+    <color name="nav_unselected">#B3B3B3</color>
+</resources>
