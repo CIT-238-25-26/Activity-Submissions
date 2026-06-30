@@ -8,12 +8,10 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 
 class FavoritesFragment : Fragment(R.layout.fragment_favorites) {
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val listView = view.findViewById<ListView>(R.id.favoritesListView)
         refreshList(listView)
-
         listView.setOnItemLongClickListener { _, _, position, _ ->
             FavoritesManager.favorites.removeAt(position)
             Toast.makeText(requireContext(), "Removed from Favorites", Toast.LENGTH_SHORT).show()

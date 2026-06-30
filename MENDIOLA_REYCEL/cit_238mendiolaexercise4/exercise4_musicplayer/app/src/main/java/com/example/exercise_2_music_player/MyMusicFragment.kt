@@ -4,7 +4,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 
-class ProfileFragment : Fragment(R.layout.fragment_profile) {
+
+class MyMusicFragment : Fragment(R.layout.fragment_my_music) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
     }

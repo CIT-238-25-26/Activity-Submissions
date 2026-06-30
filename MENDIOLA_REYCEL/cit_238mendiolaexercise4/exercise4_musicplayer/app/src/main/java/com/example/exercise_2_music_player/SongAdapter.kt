@@ -17,24 +17,15 @@ class SongAdapter(
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val view = convertView ?: LayoutInflater.from(context)
             .inflate(R.layout.item_song, parent, false)
-
         val song = songs[position]
         val songName = view.findViewById<TextView>(R.id.songName)
         val btnFavorite = view.findViewById<ImageButton>(R.id.btnFavorite)
-
         songName.text = song
 
-        // Clicking the song name/row triggers play
-        songName.setOnClickListener {
-            onSongClick(position)
-        }
-        view.setOnClickListener {
-            onSongClick(position)
-        }
+        songName.setOnClickListener { onSongClick(position) }
+        view.setOnClickListener { onSongClick(position) }
 
-        // Set icon based on current favorite state
         updateStarIcon(btnFavorite, FavoritesManager.favorites.contains(song))
-
         btnFavorite.setOnClickListener {
             if (FavoritesManager.favorites.contains(song)) {
                 FavoritesManager.favorites.remove(song)
@@ -43,7 +34,6 @@ class SongAdapter(
             }
             updateStarIcon(btnFavorite, FavoritesManager.favorites.contains(song))
         }
-
         return view
     }
 

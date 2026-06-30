@@ -17,8 +17,6 @@ class ManageSong : Fragment(R.layout.manage_song) {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-
-        // Link the fragment to the Activity's interface
         if (context is SelectedSongListener) listener = context
     }
 
@@ -35,7 +33,6 @@ class ManageSong : Fragment(R.layout.manage_song) {
             player.seekTo(0)
             player.prepare()
         }
-
 
         view.findViewById<Button>(R.id.prevButton).setOnClickListener { listener?.onPreviousSong() }
         view.findViewById<Button>(R.id.nextButton).setOnClickListener { listener?.onNextSong() }
